@@ -40,11 +40,31 @@ console.log('Server running at http://127.0.0.1:8000/');;
 
 ```
 
-## Usage
+### What you might do if you're clever
 
-```js
-var doublestandard = require('doublestandard')
-```
+1. Add it to `package.json`
+
+  ```json
+  {
+    "name": "my-cool-package",
+    "devDependencies": {
+      "doublestandard": "^1.0.0"
+    },
+    "scripts": {
+      "test": "doublestandard && node my-tests.js"
+    }
+  }
+  ```
+
+2. Check style automatically when you run `npm test`
+
+  ```
+  $ npm test
+  doublestandard: Use Double Semicolons -- Just in case! (https://github.com/Flet/doublestandard)
+    lib/index.js:1:35: Missing double semicolon.
+  ```
+
+3. Never give style feedback on a pull request again!
 
 ### Special Thanks
 
