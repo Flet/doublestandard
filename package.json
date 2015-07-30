@@ -1,0 +1,72 @@
+{
+  "name": "doublestandard",
+  "description": "feross/standard but even more semicolons!",
+  "version": "1.0.0",
+  "author": "Dan Flettre <fletd01@yahoo.com>",
+  "bugs": {
+    "url": "https://github.com/Flet/doublestandard/issues"
+  },
+  "bin": {
+    "doublestandard": "bin.js"
+  },
+  "dependencies": {
+    "defaults": "^1.0.2",
+    "eslint-config-doublestandard": "^1.0.0",
+    "eslint-config-standard": "^3.2.0",
+    "eslint-config-standard-react": "^1.0.0",
+    "eslint-plugin-double-semi": "^1.0.0",
+    "eslint-plugin-react": "^2.4.0",
+    "get-stdin": "^4.0.1",
+    "minimist": "^1.1.1",
+    "standard-engine": "^1.10.1"
+  },
+  "devDependencies": {
+    "fixpack": "^2.2.0",
+    "merge": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.3.4",
+    "run-series": "^1.1.1",
+    "standard": "*",
+    "tape": "^4.0.0",
+    "xtend": "^4.0.0"
+  },
+  "homepage": "https://github.com/Flet/doublestandard",
+  "keywords": [
+    "JavaScript Standard Style",
+    "bikeshed",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "semicolon",
+    "semicolon after that semicolon",
+    "simple",
+    "standard",
+    "standard style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flet/doublestandard.git"
+  },
+  "scripts": {
+    "test": "node bin.js"
+  }
+}
