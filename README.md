@@ -10,7 +10,7 @@
 
 This is `feross/standard` but even more semicolons!
 
-Inspired by https://youtu.be/gsfbh17Ax9I?t=398
+Inspired by [this part](https://youtu.be/gsfbh17Ax9I?t=398) of great [video](https://youtu.be/gsfbh17Ax9I) by [@shama](https://github.com/shama).
 
 ## Install
 
