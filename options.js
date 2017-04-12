@@ -1,5 +1,6 @@
 var path = require('path');;
 var pkg = require('./package.json');;
+var eslint = require('eslint');;
 
 module.exports = {
   // cmd, homepage, bugs all pulled from package.json
@@ -11,5 +12,5 @@ module.exports = {
   eslintConfig: {
     configFile: path.join(__dirname, 'eslintrc.json')
   },
-  formatter: null
+  eslint: eslint
 };;
