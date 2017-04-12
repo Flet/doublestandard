@@ -1,7 +1,7 @@
 {
   "name": "doublestandard",
   "description": "feross/standard but even more semicolons!",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "Dan Flettre <flettre@gmail.com>",
   "bugs": {
     "url": "https://github.com/Flet/doublestandard/issues"
